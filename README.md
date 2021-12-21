@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # SinsaMarket (신뢰를 사는 마켓)
 **Trusted Used Market Toy Project**  
   
@@ -11,7 +10,6 @@
 |DK|[Github](https://github.com/DoKyeong-Hwang)|
 
 ## 소개
-
 
 ## 주요 기능
 * 회원가입, 로그인
