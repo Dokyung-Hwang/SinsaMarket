@@ -1,7 +1,16 @@
 # SinsaMarket (신뢰를 사는 마켓)
 **Trusted Used Market Toy Project**  
   
-<img src="https://cdn.pixabay.com/photo/2016/04/01/09/26/gentleman-1299364_960_720.png" width="120" height="180" />
+<img src="https://cdn.pixabay.com/photo/2016/04/01/09/26/gentleman-1299364_960_720.png" width="120" height="180" />  
+
+## 백엔드 팀원
+|팀원|깃허브|
+|:---:|:---:|
+|Suarez|[Github](https://github.com/dhkstnaos)|
+|DK|[Github](https://github.com/DoKyeong-Hwang)|
+
+## 소개
+
 
 ## 주요 기능
 * 회원가입, 로그인
