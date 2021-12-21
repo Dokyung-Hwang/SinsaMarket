@@ -1,6 +1,10 @@
 package com.dangsan.sinsa.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import java.util.Set;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
 import lombok.*;
 
 import javax.persistence.Column;
@@ -39,6 +43,12 @@ public class User {
     private String email;
 
     @JsonIgnore
-    private Boolean status;
+    private boolean status;
 
+    @ManyToMany
+    @JoinTable(
+        name = "user_authority",
+        joinColumns = {@JoinColumn(name = "user_id", referencedColumnName = "user_id")},
+        inverseJoinColumns = {@JoinColumn(name = "authority_name", referencedColumnName = "authority_name")})
+    private Set<Authority> authorities;
 }
