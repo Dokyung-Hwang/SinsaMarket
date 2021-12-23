@@ -6,7 +6,7 @@ import com.dangsan.sinsa.entity.User;
 
 public class UserService {
     public User signUp(SignUpDto signUpDto) {
-        User user=new User();
+        User user = new User();
 
         return user;
     }
